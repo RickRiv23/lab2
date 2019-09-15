@@ -12,7 +12,42 @@ body{
     background-color:#edf2f9;
     font-size: 2em;    
     width:900px;
-    height:200px;
+    /*height:200px;*/
+    padding: 10px; 
     margin:0 auto;
     border-radius:20px;
+    text-align: center;
+    /*float: left;*/
+    /*clear: both;*/
+}
+
+.incorrect{
+    color: red;
+}
+.correct{
+    color: green;
+}
+.bottom-half{
+    /*float: left;*/
+    /*clear: both;*/
+    width: 100%;
+    margin: 10px auto;
+}
+
+.scoreboard{
+    margin: 10px auto;
+    width: 50%;
+}
+table{
+    margin: 10px auto;
+    background-color: black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    color: white;
+}
+td{
+    color: gold;
 }

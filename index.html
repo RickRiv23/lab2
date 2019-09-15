@@ -26,10 +26,29 @@
                 </label>
                 <button class="js-submitBtn">Submit</button>
                 <br>
-                <p id="guesses">Previous Guesses: </p>
-                <br>
-                <p id="result" style="display:none;"><span id="decision"></span> The number was: </p>
+                <div class="bottom-half">
+                    <p id="feedback"></p>
+                    <br>
+                    <p>Tries left: <span id="tries">7</span></p>
+                    <p>Previous Guesses: <span id="guesses"></span></p>
+                    <br>
+                    <p id="result" style="display:none;"><span id="decision"></span> The number was: <span id="number"></span></p>
+                    <button class="js-resetBtn">Reset</button>
+                </div>
             </div>
+        </div>
+        
+        <div class="scoreboard">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                </tr>
+                <tr>
+                    <td id="wins">0</td>
+                    <td id="losses">0</td>
+                </tr>
+            </table>
         </div>
         <script type="text/javascript" src="assets/functions.js"></script>
     </body>
